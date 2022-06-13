@@ -1,4 +1,3 @@
-#Editado desde github
 def palindromo():
     print("ingresa una palabra para saber si es palíndromo.")
     palabra = input("Ingresa la palabra: ")
