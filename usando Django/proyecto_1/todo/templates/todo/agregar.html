@@ -1,0 +1,17 @@
+{% extends "todo/layout.html" %}
+
+{% block content %}
+
+    <div class="container text-center">
+        <h4>Agregar tarea</h4>
+        <br>
+        <form method="post">
+            {% csrf_token %}
+            <div class="mb-3">
+                {{ form }}
+            </div>
+            <button type="submit" class="btn btn-primary">Confirmar</button>
+        </form>
+    </div>
+
+{% endblock %}
